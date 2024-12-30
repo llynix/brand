@@ -5,11 +5,12 @@
 # Copyright 2018 Daniel Campos <danielcampos@avanzosc.es>
 # Copyright 2018 Tecnativa - David Vidal
 # Copyright 2019 Giovanni - GSLabIt
+# Copyright 2024 Anthony Taylor - Falls Geek <ataylor@fallsgeek.com>
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 
 {
     "name": "Product Brand Manager",
-    "version": "17.0.1.2.0",
+    "version": "18.0.1.2.0",
     "development_status": "Mature",
     "category": "Product",
     "summary": "Product Brand Manager",
@@ -23,7 +24,7 @@
         "security/ir.model.access.csv",
         "views/product_brand_view.xml",
         "reports/sale_report_view.xml",
-        "reports/account_invoice_report_view.xml",
+#        "reports/account_invoice_report_view.xml",
     ],
     "installable": True,
     "auto_install": False,
